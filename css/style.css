@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* ============================================================================================
+                                      Common Css Start Here
+==============================================================================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+a,
+div,
+img,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-Color: #ff4655;
+  --secondary: #212121;
+  --white: #fff;
+  --Barlow-Condensed: "Barlow Condensed", sans-serif;
+  --Oswald: "Oswald", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+/* ============================================================================================
+                                      Common Css End Here
+==============================================================================================*/
+
+/* ==============================================================================================
+                                            Nav Sec Css Start Here
+=================================================================================================*/
+
+.cutome-nav button {
+  background-color: var(--white);
+  border: 0;
+  outline: 0;
+}
+
+.cutome-nav .nav-logo {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.05px;
+  display: flex;
+  column-gap: 8px;
+}
+
+.cutome-nav .custome-menu {
+  column-gap: 20px;
+}
+
+.cutome-nav .custome-menu a {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.cutome-nav .custome-menu a:hover {
+  color: #ddd;
+}
+
+.cutome-nav .round {
+  width: 9.002px;
+  height: 9px;
+  background-color: var(--primary-Color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  align-self: end;
+  margin-bottom: 14px;
+}
+
+.cutome-nav .nav-right .fa-globe {
+  color: var(--white);
+  margin-right: 25px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.cutome-nav .nav-right .fa-globe:hover {
+  color: var(--primary-Color);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.cutome-nav .nav-right .signin {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.cutome-nav .nav-right .signin:hover {
+  color: var(--primary-Color);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.cutome-nav .nav-right .fa-right-to-bracket {
+  margin-right: 7px;
+}
+
+.cutome-nav .nav-right .fa-magnifying-glass {
+  color: var(--white);
+  margin-left: 30px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.cutome-nav .nav-right .fa-magnifying-glass:hover {
+  color: var(--primary-Color);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+/* ==============================================================================================
+                                            Nav Sec Css End Here
+=================================================================================================*/
+
+/* ===============================================================================================
+                                       Hero Sec Css Start Here
+=================================================================================================*/
+
+#hero-sec {
+  padding: 200px 0;
+  background: url(/images/banner\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 113% 87%;
+}
+
+.hero-left {
+  padding-top: 121px;
+}
+
+#hero-sec .hero-left h4 {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 2.7px;
+}
+
+#hero-sec .hero-left h1 {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 60px;
+  font-weight: 600;
+  position: relative;
+}
+
+#hero-sec .hero-left h1::after {
+  position: absolute;
+  content: "";
+  width: 90px;
+  height: 4px;
+  background-color: var(--white);
+  bottom: 15%;
+  right: -8%;
+}
+
+#hero-sec .hero-left h1 span {
+  width: 90px;
+  height: 4px;
+  background-color: var(--white);
+}
+
+#hero-sec .hero-left p {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 48px;
+  /* padding-right: 132px; */
+}
+
+#hero-sec .hero-left button {
+  border: 0;
+  background-color: var(--white);
+  color: #121212;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  padding: 13px 0;
+  padding-left: 24px;
+  padding-right: 15px;
+  font-weight: 400;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#hero-sec .hero-left button:hover {
+  background-color: var(--primary-Color);
+  transform: translateY(-8%);
+  -webkit-transform: translateY(-8%);
+  -moz-transform: translateY(-8%);
+  -ms-transform: translateY(-8%);
+  -o-transform: translateY(-8%);
+  color: var(--white);
+}
+
+#hero-sec .hero-left button span {
+  padding-left: 7px;
+}
+
+.hero-right picture img {
+  display: none;
+}
+
+#hero-sec .hero-icon {
+  margin-top: 290px;
+}
+
+#hero-sec .hero-icon a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#hero-sec .hero-icon a {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: var(--white);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #121212;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#hero-sec .hero-icon a:nth-child(1):hover {
+  background-color: #3b5998;
+  color: #fff;
+  transform: translateY(-10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+#hero-sec .hero-icon a:nth-child(2):hover {
+  background-color: #0077b5;
+  color: #fff;
+  transform: translateY(-10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+#hero-sec .hero-icon a:nth-child(3):hover {
+  background-color: #1da1f2;
+  color: #fff;
+  transform: translateY(-10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+#hero-sec .hero-icon a:nth-child(4):hover {
+  background-color: #bc2a8d;
+  color: #fbad50;
+  transform: translateY(-10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+/* ===============================================================================================
+                                       Hero Sec Css End Here
+=================================================================================================*/
+
+/* =============================================================================================
+                                      About Part Css Start Here
+===============================================================================================*/
+#about-part {
+  padding: 100px 0;
+}
+
+#about-part .about-heading {
+  display: flex;
+  align-items: center;
+}
+
+#about-part .about-left picture img {
+  width: 700px;
+  height: 372px;
+}
+
+#about-part .about-left {
+  position: relative;
+  z-index: 1;
+}
+
+#about-part .about-img-border {
+  top: -3px;
+  left: -3px;
+  position: absolute;
+  width: 163px;
+  height: 163px;
+  background-color: var(--primary-Color);
+  z-index: -1;
+}
+
+#about-part .about-heading h3 {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  position: relative;
+}
+
+#about-part .about-right .right-heading h3 {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 0.81px;
+  padding-bottom: 7px;
+}
+
+#about-part .about-right .list-1 i {
+  color: var(--primary-Color);
+  width: 15px;
+}
+
+#about-part .about-right .list-1 span {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+#about-part .about-right p {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 18px;
+  padding-bottom: 25px;
+  font-weight: 400;
+  padding-top: 3px;
+}
+
+#about-part .about-right .about-btn button {
+  color: var(--white);
+  font-family: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 0;
+  padding-left: 22px;
+  padding-right: 12px;
+  background: #212121;
+  border: 0;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#about-part .about-right .about-btn button:hover {
+  background-color: var(--primary-Color);
+  color: var(--white);
+  transform: translateX(7%);
+  -webkit-transform: translateX(7%);
+  -moz-transform: translateX(7%);
+  -ms-transform: translateX(7%);
+  -o-transform: translateX(7%);
+}
+
+#about-part .about-right .about-btn i {
+  margin-left: 7px;
+}
+
+#about-part .item h4 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  position: relative;
+}
+
+#about-part .item h4::after {
+  position: absolute;
+  bottom: 15%;
+  right: 4%;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary-Color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#about-part .item .h4 {
+  position: relative;
+}
+#about-part .item .h4::after {
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary-Color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#about-part .item p {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.36px;
+  padding-top: 18px;
+}
+
+#about-part .item {
+  padding: 26px 63px;
+  border-radius: 0px 50px;
+  background: #212121;
+}
+/* =============================================================================================
+                                      About Part Css End Here
+===============================================================================================*/
+
+/* ============================================================================================
+                                    Game Part Css Start Here
+==============================================================================================*/
+
+#game-part {
+  background-color: #191919;
+  padding-top: 115px;
+  padding-bottom: 90px;
+}
+#game-part .game-heading h3 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  position: relative;
+}
+
+#game-part .game-heading h3::after {
+  position: absolute;
+  content: "";
+  width: 105px;
+  height: 3px;
+  background-color: var(--primary-Color);
+  bottom: 9%;
+  right: 25%;
+}
+
+/* ============================================================================================
+                                    Game Part Css End Here
+==============================================================================================*/
