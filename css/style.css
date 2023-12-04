@@ -381,6 +381,16 @@ body {
   position: relative;
 }
 
+#about-part .about-heading h3::after {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 4px;
+  background-color: var(--primary-Color);
+  bottom: 6px;
+  right: 243px;
+}
+
 #about-part .about-right .right-heading h3 {
   color: var(--white);
   font-family: var(--Oswald);
@@ -532,6 +542,428 @@ body {
   right: 25%;
 }
 
+#game-part .game-content {
+  position: relative;
+  padding-top: 80px;
+}
+
+#game-part .game-content .game-1 {
+  width: 651px;
+  height: 390px;
+  background-color: var(--primary-Color);
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+}
+
+.game-1_overlay {
+  top: -65px;
+  left: 83px;
+  position: absolute;
+}
+.game-1_overlay picture img {
+  width: 366px;
+  height: 535px;
+}
+
+#game-part .game-2 {
+  width: 651px;
+  height: 390px;
+  background: url(/images/trend-games3\ 1.png);
+
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+#game-part .game-content .side-icon {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#game-part .game-content .side-icon .left-icon {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 18px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 20px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+}
+
+#game-part .game-content .side-icon .left-icon:hover {
+  background-color: #ffffff10;
+  color: var(--primary-Color);
+}
+
+#game-part .game-content .side-icon .right-icon {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 18px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+}
+
+#game-part .game-content .side-icon .right-icon:hover {
+  background-color: #ffffff10;
+  color: var(--primary-Color);
+}
+
 /* ============================================================================================
                                     Game Part Css End Here
 ==============================================================================================*/
+
+/* =============================================================================================
+                                 Streaming Part Css Start Here
+================================================================================================*/
+#streaming-part {
+  padding: 90px 0;
+}
+
+#streaming-part .streaming-heading h3 {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  position: relative;
+}
+
+#streaming-part .streaming-heading h3:after {
+  position: absolute;
+  content: "";
+  background-color: var(--primary-Color);
+  width: 120px;
+  height: 3px;
+  bottom: 5px;
+  right: 196px;
+}
+
+.streaming-content {
+  column-gap: 20px;
+  padding-top: 78px;
+}
+
+.streaming-content .video-1 {
+  width: 427px;
+  height: 275px;
+  background: url(/images/tour-1\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 25px;
+  padding-bottom: 23px;
+  padding-top: 111px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.streaming-content .video-1:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.streaming-content .video-1:hover h3 {
+  color: red;
+}
+
+.streaming-content .video-1 .video-content .video-play-btn i {
+  color: var(--white);
+  font-size: 70px;
+  transform: translate(159%, -21%);
+  -webkit-transform: translate(159%, -21%);
+  -moz-transform: translate(159%, -21%);
+  -ms-transform: translate(159%, -21%);
+  -o-transform: translate(159%, -21%);
+}
+.streaming-content .video-1 .video-content .video-title h3 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 24px;
+}
+
+.streaming-content .video-1 .video-content .video-description h4 {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.96px;
+  padding-top: 5px;
+}
+
+.streaming-content .video-1 .video-content .video-description p {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 16px;
+
+  font-weight: 400;
+  position: relative;
+}
+
+.streaming-content .video-1 .video-content .video-description p::before {
+  position: absolute;
+  content: "";
+  left: -13px;
+  top: 12px;
+  width: 5px;
+  height: 4.919px;
+  background-color: var(--primary-Color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.streaming-content .video-1 .video-content .video-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.streaming-content .video-1:nth-child(2) {
+  background: url(/images/tour-2\ 1.png);
+}
+
+.streaming-content .video-1:nth-child(3) {
+  background: url(/images/tour-3\ 1.png);
+}
+
+/* ======================================================
+                  Match Part Css Start Here
+=========================================================*/
+
+.match-part {
+  align-items: center;
+}
+
+.match-part .match-heading h4 {
+  padding-top: 60px;
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2.25px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.match-part .team {
+  background-color: #212121;
+  padding: 10px 0;
+  padding-right: 82px;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.match-part .team .team-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.match-part .team .team-content .title h5 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.96px;
+}
+
+.match-part .point h4 {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 6px;
+  padding-top: 39px;
+  text-align: center;
+}
+
+#team-2 {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%);
+  padding-right: 0;
+  padding-left: 78px;
+}
+
+/* ======================================================
+                  Match Part Css End Here
+=========================================================*/
+
+/* =============================================================================================
+                                 Streaming Part Css End Here
+================================================================================================*/
+
+/* =============================================================================================
+                                        Sale Part Css Start Here
+===============================================================================================*/
+
+#sale_part {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+#sale_part .sale_heading h3 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  position: relative;
+}
+
+#sale_part .sale_heading h3:after {
+  position: absolute;
+  right: 84px;
+  bottom: 9px;
+  content: "";
+  width: 105px;
+  height: 3px;
+  background-color: var(--primary-Color);
+}
+
+#sale_part .sale-game-item h3 {
+  color: #fff;
+
+  font-family: var(--Barlow-Condensed);
+  font-size: 20px;
+  padding-top: 18px;
+  font-weight: 600;
+  letter-spacing: 1.54px;
+}
+
+#sale_part .sale-game-item h4 {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  padding: 20px 0;
+}
+
+#sale_part .sale-game-item .game-price {
+  align-items: center;
+  display: flex;
+}
+
+#sale_part .sale-game-item .game-price h5 {
+  color: var(--white);
+  font-family: Oswald;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  background-color: var(--primary-Color);
+  padding: 4px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#sale_part .sale-game-item .game-price span {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+  text-decoration: line-through;
+  padding-left: 10px;
+}
+
+#sale_part .sale-game-item .game-price p {
+  color: var(--white);
+
+  font-family: var(--Oswald);
+  font-size: 16px;
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+#sale_part .game {
+  position: relative;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#sale_part .game:hover {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+
+#sale_part .game:hover h5 {
+  background-color: #fbad50;
+}
+
+#sale_part .game:hover .plus {
+  background-color: var(--primary-Color);
+  opacity: 1;
+}
+
+.plus {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--white);
+  background-color: #000000;
+  padding: 1px 6px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 15px;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+  opacity: 0;
+}
+
+/* =============================================================================================
+                                        Sale Part Css End Here
+===============================================================================================*/
+
+/* ============================================================================================
+                                      Category Part Css Start Here
+===============================================================================================*/
+
+/* ============================================================================================
+                                      Category Part Css End Here
+===============================================================================================*/
