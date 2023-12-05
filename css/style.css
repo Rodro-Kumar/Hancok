@@ -829,6 +829,7 @@ body {
 #sale_part {
   padding-top: 90px;
   padding-bottom: 50px;
+  background-color: #191919;
 }
 #sale_part .sale_heading h3 {
   color: var(--white);
@@ -929,7 +930,7 @@ body {
 }
 
 #sale_part .game:hover .plus {
-  background-color: var(--primary-Color);
+  background-color: #000000;
   opacity: 1;
 }
 
@@ -967,3 +968,526 @@ body {
 /* ============================================================================================
                                       Category Part Css End Here
 ===============================================================================================*/
+
+/* ============================================================================================
+                                      Accesories Part Css Start Here
+===============================================================================================*/
+#accesories-part {
+  padding: 90px 0;
+}
+
+#accesories-1 {
+  position: relative;
+}
+
+#accesories-1 .left-icon {
+  position: absolute;
+  color: var(--white);
+  padding: 10px 17px;
+  background-color: var(--primary-Color);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  bottom: 48%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#accesories-1 .left-icon:hover {
+  background-color: #9c3740;
+  transform: translateX(-60%);
+  -webkit-transform: translateX(-60%);
+  -moz-transform: translateX(-60%);
+  -ms-transform: translateX(-60%);
+  -o-transform: translateX(-60%);
+}
+
+#accesories-4 {
+  position: relative;
+}
+
+#accesories-4 .right-icon {
+  position: absolute;
+  color: var(--white);
+  padding: 10px 17px;
+  background-color: var(--primary-Color);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  bottom: 48%;
+  right: 0;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#accesories-4 .right-icon:hover {
+  background-color: #9c3740;
+  transform: translateX(60%);
+  -webkit-transform: translateX(60%);
+  -moz-transform: translateX(60%);
+  -ms-transform: translateX(60%);
+  -o-transform: translateX(60%);
+}
+
+#accesories-part .accesories-heading h3 {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  position: relative;
+  margin-bottom: 102px;
+}
+
+#accesories-part .accesories-heading h3::after {
+  position: absolute;
+  content: "";
+  bottom: 6px;
+  left: 225px;
+  width: 120px;
+  height: 3px;
+  background-color: var(--primary-Color);
+}
+
+#accesories-part .accesories {
+  background-color: #212121;
+  padding: 22px 0;
+}
+
+.accesories-img {
+  padding: 0 37px;
+}
+
+#accesories-part .accesories .accesories-price h4 {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+#accesories-part .accesories .accesories-title {
+  padding-top: 45px;
+}
+
+#accesories-part .accesories .accesories-title h3 {
+  color: var(--white);
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+
+#accesories-part .accesories .accesories-title a {
+  color: #ff4655;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#accesories-part .accesories .accesories-title a:hover {
+  color: rgb(255, 230, 0);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+/* ============================================================================================
+                                     Accesories Part Css End Here
+===============================================================================================*/
+
+/*=============================================================================================
+                                      Team Part Css Start Here       
+================================================================================================*/
+
+#team-part {
+  background-color: #191919;
+  padding: 100px 0;
+}
+
+#team-part .team-heading h4 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#team-part .team-heading h4:after {
+  position: absolute;
+  content: "";
+  right: 91px;
+  bottom: 8px;
+  width: 105px;
+  height: 3px;
+  background-color: var(--primary-Color);
+}
+
+#team-part .team {
+  background: url(/images/team-1\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 650px;
+  height: 428px;
+  position: relative;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  overflow: hidden;
+  margin-bottom: 29px;
+}
+
+#team-part .team-2 {
+  background: url(/images/team-2\ 1.png);
+}
+
+#team-part .team-3 {
+  background: url(/images/team-3\ 1.png);
+}
+
+#team-part .team-4 {
+  background: url(/images/team-4\ 1.png);
+}
+
+#team-part .team-title {
+  position: absolute;
+  bottom: 0;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+#team-part .team-title h3 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#team-part .team-content {
+  padding-top: 39px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  border: 1px solid #00000000;
+  background: #25242461;
+  position: absolute;
+  bottom: 0;
+  display: none;
+  animation: slide-in-bck-bottom 0.4s linear 0s 1 normal none;
+  -webkit-animation: slide-in-bck-bottom 0.4s linear 0s 1 normal none;
+}
+
+.team-content h3 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  animation: shutter-in-top 0.9s linear 0s 1 normal none;
+  -webkit-animation: shutter-in-top 0.9s linear 0s 1 normal none;
+}
+
+#team-part .team-content p {
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 19px;
+  animation: shutter-in-top 0.9s linear 0s 1 normal none;
+  -webkit-animation: shutter-in-top 0.9s linear 0s 1 normal none;
+  padding-right: 214px;
+}
+
+#team-part .team-content .team-btn {
+  display: inline-block;
+  color: var(--white);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--primary-Color);
+  padding: 4px 20px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  animation: scale-up-center 0.6s linear 0s 1 normal none;
+  -webkit-animation: scale-up-center 0.6s linear 0s 1 normal none;
+}
+
+#team-part .team-content .team-btn:hover {
+  background-color: #a5343d;
+}
+
+.team-icon {
+  padding-right: 58px;
+  animation: fade-in 1s linear 0s 1 normal none;
+  -webkit-animation: fade-in 1s linear 0s 1 normal none;
+}
+
+.team-icon a {
+  background-color: var(--primary-Color);
+  width: 35px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: var(--white);
+  margin-left: 20px;
+  display: inline-block;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.team-icon a:nth-child(1):hover {
+  color: var(--white);
+  background-color: #1877f2;
+  transform: translateX(10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateX(10%);
+  -ms-transform: translateX(10%);
+  -o-transform: translateX(10%);
+}
+
+.team-icon a:nth-child(2):hover {
+  color: var(--white);
+  background-color: #0077b5;
+  transform: translateX(10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateX(10%);
+  -ms-transform: translateX(10%);
+  -o-transform: translateX(10%);
+}
+
+.team-icon a:nth-child(3):hover {
+  color: var(--white);
+  background-color: #1da1f2;
+  transform: translateX(10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateX(10%);
+  -ms-transform: translateX(10%);
+  -o-transform: translateX(10%);
+}
+
+#team-part .team:hover .team-content {
+  display: block;
+}
+
+#team-part .team:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+#team-part .team:hover .team-title {
+  display: none;
+}
+
+/**==================== Keyframe ===================**/
+
+@keyframes shutter-in-top {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-in-bck-bottom {
+  0% {
+    transform: translateZ(700px) translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*===============================================================================================
+                                      Team Part Css End Here       
+================================================================================================*/
+
+/*===============================================================================================
+                                      Faq Part Css Start Here       
+================================================================================================*/
+#faq-part {
+  padding-top: 55px;
+  padding-bottom: 100px;
+}
+
+#faq-part .faq-heading h3 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 3.8px;
+  position: relative;
+  margin-bottom: 92px;
+}
+
+#faq-part .faq-heading h3::after {
+  position: absolute;
+  bottom: 9px;
+  right: 77px;
+  content: "";
+  width: 128px;
+  height: 3px;
+  background-color: var(--primary-Color);
+}
+
+.question .question-item {
+  display: flex;
+}
+
+/**=========================================**/
+
+.question-item-1 {
+  padding-right: 76px;
+  border-bottom: 1.5px solid #666;
+  border-right: 1.5px solid #666;
+  padding-bottom: 75px;
+}
+
+.question-item-1 p {
+  padding-right: 10px;
+}
+
+.question-item-2 {
+  padding-left: 80px;
+  border-bottom: 1.5px solid #666;
+  padding-bottom: 75px;
+}
+
+.question-item-3 {
+  padding-top: 76px;
+  padding-right: 76px;
+  border-right: 1.5px solid #666;
+}
+
+.question-item-4 {
+  padding-top: 76px;
+  padding-left: 80px;
+}
+
+/**=========================================**/
+
+.question .number h6 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 3.8px;
+  background-color: var(--primary-Color);
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.description {
+  padding-left: 42px;
+}
+
+.description h4 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 11px;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+  cursor: pointer;
+}
+
+.description h4:hover {
+  color: var(--primary-Color);
+}
+
+.description p {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*===============================================================================================
+                                      Faq Part Css End Here       
+================================================================================================*/
+
+/**==============================================================================================
+                                  *!  Subscribe Part Css Start Here
+/**==============================================================================================*/
+/**==============================================================================================
+                                  *!  Subscribe Part Css End Here
+/**==============================================================================================*/
