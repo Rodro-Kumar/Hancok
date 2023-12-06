@@ -757,7 +757,7 @@ body {
 }
 
 /* ======================================================
-                  Match Part Css Start Here
+                  *Match Part Css Start Here
 =========================================================*/
 
 .match-part {
@@ -781,6 +781,16 @@ body {
   padding-right: 82px;
   -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+  cursor: default;
+}
+
+.match-part .team:hover {
+  background-color: #312f2f;
 }
 
 .match-part .team .team-content {
@@ -815,7 +825,7 @@ body {
 }
 
 /* ======================================================
-                  Match Part Css End Here
+                  *Match Part Css End Here
 =========================================================*/
 
 /* =============================================================================================
@@ -964,7 +974,76 @@ body {
 /* ============================================================================================
                                       Category Part Css Start Here
 ===============================================================================================*/
+#category_part {
+  background-color: #212121;
+  padding: 80px 0;
+}
 
+.category-right {
+  width: 276px;
+  height: 305px;
+  position: relative;
+}
+
+.category-right:hover .img-3 {
+  left: -24px;
+}
+
+.category-right:hover .img-4 {
+  right: -16px;
+}
+
+.category-right .img-1 {
+  position: absolute;
+}
+
+.category-right .img-2 {
+  position: absolute;
+  right: 0;
+}
+
+.category-right .img-3 {
+  position: absolute;
+  left: 24px;
+  transform: translateY(-4%);
+  -webkit-transform: translateY(-4%);
+  -moz-transform: translateY(-4%);
+  -ms-transform: translateY(-4%);
+  -o-transform: translateY(-4%);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.category-right .img-4 {
+  position: absolute;
+  right: 16px;
+  transform: translateY(-4%);
+  -webkit-transform: translateY(-4%);
+  -moz-transform: translateY(-4%);
+  -ms-transform: translateY(-4%);
+  -o-transform: translateY(-4%);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.category-right .img-5 {
+  width: 167px;
+  height: 370px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
 /* ============================================================================================
                                       Category Part Css End Here
 ===============================================================================================*/
@@ -1488,6 +1567,239 @@ body {
 /**==============================================================================================
                                   *!  Subscribe Part Css Start Here
 /**==============================================================================================*/
+#subscribe-part {
+  padding: 34px 0;
+  padding-left: 30px;
+  background-color: var(--primary-Color);
+}
+
+#subscribe-part .subscribe-heading h3 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#subscribe-part .subscribe-input input {
+  position: absolute;
+  width: 300px;
+  padding: 10px 0;
+  padding-left: 20px;
+  border: 0;
+  outline: 0;
+  background-color: var(--white);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+#subscribe-part .subscribe-input input::placeholder {
+  color: #666;
+  font-family: var(--Barlow-Condensed);
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#subscribe-part .sub-btn button {
+  position: relative;
+  left: 78%;
+  bottom: 0;
+  border: 0;
+
+  background-color: #000000;
+  color: #fff;
+  font-family: var(--Barlow-Condensed);
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 28px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+}
+
+#subscribe-part .sub-btn button:hover {
+  background-color: #222121;
+  transform: translateX(-4%);
+  -webkit-transform: translateX(-4%);
+  -moz-transform: translateX(-4%);
+  -ms-transform: translateX(-4%);
+  -o-transform: translateX(-4%);
+}
 /**==============================================================================================
                                   *!  Subscribe Part Css End Here
 /**==============================================================================================*/
+
+/* ==============================================================================================
+                                    * Footer Part Css Start Here
+=================================================================================================*/
+#footer-part {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-color: #191919;
+}
+
+#footer-part .footer-left .logo a {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.05px;
+  position: relative;
+}
+
+#footer-part .footer-left .logo a::after {
+  position: absolute;
+  right: -18px;
+  bottom: 6px;
+  content: "";
+  width: 9.002px;
+  height: 9px;
+  background-color: var(--primary-Color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#footer-part .footer-left p {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#footer-part .footer-icon a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  color: var(--white);
+  background-color: #212529;
+  line-height: 50px;
+  text-align: center;
+  font-size: 26px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#footer-part .footer-icon a:hover {
+  background-color: var(--primary-Color);
+  transform: translateY(-10%);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+#footer-part .footer-list {
+  display: flex;
+  column-gap: 50px;
+  padding-top: 14px;
+  padding-left: 10px;
+}
+
+#footer-part .footer-list ul li {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+  padding-bottom: 30px;
+}
+
+#footer-part .footer-list ul li a {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+}
+
+#footer-part .footer-list ul li a:hover {
+  color: var(--primary-Color);
+}
+
+#footer-part .footer-gallery .gallery-heading h3 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+  padding-bottom: 30px;
+}
+
+#footer-part .footer-gallery {
+  padding-left: 73px;
+  padding-top: 14px;
+}
+
+/* ==============================================================================================
+                                    * Footer Part Css End Here
+=================================================================================================*/
+
+/**==============================================================================================
+                                  ** Copyright Part Css Start Here
+**==============================================================================================*/
+
+#copyright {
+  background-color: #191919;
+}
+
+.copyright-part {
+  padding: 25px 0;
+  border-top: 2px solid #666;
+}
+
+.copyright-part .copyright-heading {
+  display: flex;
+  text-align: center;
+  display: block;
+}
+
+.copyright-part .copyright-heading h3 {
+  color: var(--white);
+  font-family: var(--Barlow-Condensed);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.copyright-part .copyright-heading span a {
+  color: var(--primary-Color);
+  font-family: var(--Barlow-Condensed);
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 400;
+}
+
+/**==============================================================================================
+                                  ** Copyright Part Css End Here
+**==============================================================================================*/
